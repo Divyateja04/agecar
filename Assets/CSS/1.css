@@ -3,13 +3,25 @@ body,html{
 	width: 100%;
 	overflow:auto;
 }
-body{
-    background-image: url("../Images/welcome1.jpg");
-    background-size: cover;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+.main{
+  position: relative;
+  background-position: center;
+  background-image: url("../Images/welcome.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+.dt1{
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    margin: auto;
     position: relative;
     background-position: center;
-  	background-repeat: no-repeat;
 }
